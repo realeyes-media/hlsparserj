@@ -34,6 +34,7 @@ abstract class Segment : Tag {
     var breakPts: Float? = null
     var breakId: Int? = null
     var pdtUpdated: Boolean = false
+    var cue: Cue? = null
 
     /**
      * Returns the discontinuity flag.
